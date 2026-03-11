@@ -102,7 +102,6 @@ jobs:
           # CLAUDE.md provides skill routing instructions instead.
           prompt: ${{ github.event_name == 'workflow_dispatch' && format('Review the PR currently checked out in the Velox project current workspace. Use the /pr-review skill and post the final output as a comment on the original PR {0}', inputs.pr_number) || '' }}
           anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
-          github_token: ${{ secrets.GITHUB_TOKEN }}
           # Tool access:
           #   - Skill: invoke /pr-review and /query skills
           #   - Read,Glob,Grep: codebase exploration (used by skills)
