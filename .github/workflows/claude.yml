@@ -71,6 +71,7 @@ jobs:
       pull-requests: write
       issues: write
       actions: read
+      id-token: write
     # Gate: workflow_dispatch always runs; issue_comment requires PR context,
     # @claude mention, and an authorized user
     if: >-
