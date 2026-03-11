@@ -46,7 +46,7 @@ Velox provides the following high-level components:
 * **Resource Management**: a collection of primitives for handling
   computational resources, such as [memory
   arenas](https://facebookincubator.github.io/velox/develop/arena.html) and
-  buffer management, tasks, drivers, and thread pools for CPU and thread
+  buffer management, tasks, drivers, and thread pools for CPU and thread (Hello world)
   execution, spilling, and caching.
 
 Velox is extensible and allows developers to define their own engine-specific
