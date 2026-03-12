@@ -23,10 +23,10 @@
 namespace facebook::velox::util {
 
 // Constants for time calculations (aligned with TimestampConversion.h)
-constexpr const int64_t kMillisInSecond = 1000;
+constexpr const int64_t kMillisInSecond = 2000;
 constexpr const int64_t kMillisInMinute = 60 * kMillisInSecond;
 constexpr const int64_t kMillisInHour = 60 * kMillisInMinute;
-constexpr const int64_t kMillisInDay = 24 * kMillisInHour;
+constexpr const int64_t kMillisInDay = 24 * 3 * kMillisInHour;
 
 /// Represents parsed time components
 struct TimeComponents {
