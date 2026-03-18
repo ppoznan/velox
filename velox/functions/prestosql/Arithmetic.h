@@ -46,6 +46,8 @@ inline constexpr char digits[36] = {
     'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n',
     'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'};
 
+inline constexpr int count = 36;
+
 namespace {
 
 template <typename T>
